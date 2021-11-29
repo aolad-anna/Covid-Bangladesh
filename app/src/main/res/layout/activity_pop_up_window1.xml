@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_window_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopUpWindow">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/popup_window_view_with_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/popup_window_view"
+            android:layout_width="345dp"
+            android:layout_height="375dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardPreventCornerOverlap="false">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/popup_window_background_container"
+                android:layout_width="match_parent"
+                android:layout_height="376dp"
+                android:layout_centerInParent="true"
+                android:background="#F6F0F1"
+                android:minHeight="170dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/popup_window_text"
+                    android:layout_width="330dp"
+                    android:layout_height="272dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/popup_window_button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/popup_window_title"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/popup_window_text"
+                    app:layout_constraintTop_toTopOf="@+id/popup_window_text">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/warn"
+                            android:gravity="center">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView6885"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:contentDescription="@string/todo5"
+                                    app:srcCompat="@drawable/ic_warn"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                <TextView
+                                    android:id="@+id/textViews1717"
+                                    android:layout_width="115dp"
+                                    android:layout_height="40dp"
+                                    android:gravity="center"
+                                    android:text="@string/total_cases1"
+                                    android:textColor="#1E2432"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="RtlHardcoded" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <ImageView
+                                    android:id="@+id/Red12"
+                                    android:layout_width="20dp"
+                                    android:layout_height="19dp"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    app:srcCompat="@drawable/indcred"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+                                />
+
+                                <ImageView
+                                    android:id="@+id/imageView74s918"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:contentDescription="@string/todo1"
+                                    app:srcCompat="@drawable/ic_main_line"
+                                    tools:ignore="VectorDrawableCompat" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <TextView
+                                    android:id="@+id/pips36"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/people"
+                                    android:textColor="#1E2432" />
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="25dp">
+
+                                    <TextView
+                                        android:id="@+id/TotalCase"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25dp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:textColor="#1E2432"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progress9"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:indeterminateTint="#3D4A97"
+                                        android:visibility="gone"
+                                        tools:visibility="visible" />
+
+                                </RelativeLayout>
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/red"
+                            android:gravity="center">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView65705"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:contentDescription="@string/todo5"
+                                    app:srcCompat="@drawable/ic_red"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                <TextView
+                                    android:id="@+id/todf"
+                                    android:layout_width="115dp"
+                                    android:layout_height="40dp"
+                                    android:gravity="center"
+                                    android:text="@string/total_death"
+                                    android:textColor="#1E2432"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="RtlHardcoded" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <ImageView
+                                    android:id="@+id/Redq"
+                                    android:layout_width="20dp"
+                                    android:layout_height="19dp"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    app:srcCompat="@drawable/indcred"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+                                />
+
+                                <ImageView
+                                    android:id="@+id/imageView9t138"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:contentDescription="@string/todo1"
+                                    app:srcCompat="@drawable/ic_main_line"
+                                    tools:ignore="VectorDrawableCompat" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <TextView
+                                    android:id="@+id/textView13d97"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/people"
+                                    android:textColor="#1E2432" />
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="25dp">
+
+                                    <TextView
+                                        android:id="@+id/TotalDied"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25dp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:textColor="#1E2432"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progress98"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:indeterminateTint="#3D4A97"
+                                        android:visibility="gone"
+                                        tools:visibility="visible" />
+
+                                </RelativeLayout>
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/majenda"
+                            android:gravity="center">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:id="@+id/imageViewr651"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:contentDescription="@string/todo5"
+                                    app:srcCompat="@drawable/ic_resource_new"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                <TextView
+                                    android:id="@+id/textView1t7177"
+                                    android:layout_width="115dp"
+                                    android:layout_height="40dp"
+                                    android:gravity="center"
+                                    android:text="@string/total_recovered"
+                                    android:textColor="#1E2432"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="RtlHardcoded" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <ImageView
+                                    android:id="@+id/green51"
+                                    android:layout_width="20dp"
+                                    android:layout_height="19dp"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    app:srcCompat="@drawable/indcgreen"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+                                />
+
+                                <ImageView
+                                    android:id="@+id/imageView5r578"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:contentDescription="@string/todo1"
+                                    app:srcCompat="@drawable/ic_main_line"
+                                    tools:ignore="VectorDrawableCompat" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <TextView
+                                    android:id="@+id/pipt26"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/people"
+                                    android:textColor="#1E2432" />
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="25dp">
+
+                                    <TextView
+                                        android:id="@+id/TotalRecover"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25dp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:textColor="#1E2432"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progress987"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:indeterminateTint="#3D4A97"
+                                        android:visibility="gone"
+                                        tools:visibility="visible" />
+
+                                </RelativeLayout>
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/blue"
+                            android:gravity="center">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView6u505"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:contentDescription="@string/todo5"
+                                    app:srcCompat="@drawable/ic_blue"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                <TextView
+                                    android:id="@+id/TotalTests"
+                                    android:layout_width="115dp"
+                                    android:layout_height="40dp"
+                                    android:gravity="center"
+                                    android:text="@string/total_test5"
+                                    android:textColor="#1E2432"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="DuplicateIds,RtlHardcoded" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <ImageView
+                                    android:id="@+id/greenT"
+                                    android:layout_width="20dp"
+                                    android:layout_height="19dp"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    app:srcCompat="@drawable/indcgreen"
+                                    tools:ignore="DuplicateIds,VectorDrawableCompat" />
+                                />
+
+                                <ImageView
+                                    android:id="@+id/imageView9r9518"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:contentDescription="@string/todo1"
+                                    app:srcCompat="@drawable/ic_main_line"
+                                    tools:ignore="VectorDrawableCompat" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp">
+
+                                <TextView
+                                    android:id="@+id/pifp69"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/people"
+                                    android:textColor="#1E2432" />
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="25dp">
+
+                                    <TextView
+                                        android:id="@+id/TotalTest"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25dp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:textColor="#1E2432"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+
+                                    <ProgressBar
+                                        android:id="@+id/progress9876"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:indeterminateTint="#3D4A97"
+                                        android:visibility="gone"
+                                        tools:visibility="visible" />
+
+                                </RelativeLayout>
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/popup_window_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#3D4A97"
+                    android:gravity="center"
+                    android:text="@string/today_s_data"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    app:autoSizeMaxTextSize="24dp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="MissingConstraints" />
+
+
+                <Button
+                    android:id="@+id/popup_window_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="145dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/redround"
+                    android:text="ok"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

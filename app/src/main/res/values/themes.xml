@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CovidBangladesh" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#3D4A97</item>
+        <item name="colorPrimaryVariant">#3D4A97</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="android:background">#ffff</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.CovidBangladesh.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CovidBangladesh.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CovidBangladesh.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+</resources>

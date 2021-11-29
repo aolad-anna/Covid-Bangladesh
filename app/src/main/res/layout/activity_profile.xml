@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sft1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/round2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="6dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    app:srcCompat="@drawable/ic_stay_home__1_" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="213dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center|left"
+                    android:text="STAY AT HOME"
+                    android:textColor="#EAE1E1"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/notify6"
+                    android:layout_width="6dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/notification" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#3D4A97"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="User Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/result"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#45FFFFFF"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:srcCompat="@drawable/ic_user" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Name"
+                    android:textColor="#3D4A97"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/names"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/field"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textColorLink="#3F51B5"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Email Address"
+                    android:textColor="#3D4A97"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/emails"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/field"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Mobile No."
+                    android:textColor="#3D4A97"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/phones"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/field"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/signout1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redround"
+                    android:text="Sign out"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

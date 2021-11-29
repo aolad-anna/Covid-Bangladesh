@@ -1,0 +1,2044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sft"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/round2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="6dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    app:srcCompat="@drawable/ic_stay_home__1_" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="213dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center|left"
+                    android:text="STAY AT HOME"
+                    android:textColor="#EAE1E1"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/notify2"
+                    android:layout_width="6dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/notification" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/name_p"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/imageView5535jtyj"
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:gravity="center|right"
+                    app:srcCompat="@drawable/ic_user" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/Profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Hello, Anna"
+                            android:textColor="#ECCFCF"
+                            android:textSize="16dp"
+                            android:textStyle="normal"
+                            android:visibility="gone"
+                            tools:ignore="RtlHardcoded" />
+
+                        <TextView
+                            android:id="@+id/profile_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Tap here for 'Sign in' or 'Sign Up'"
+                            android:textColor="#ECCFCF"
+                            android:textSize="16dp"
+                            android:textStyle="normal|bold"
+                            android:visibility="visible"
+                            tools:ignore="RtlHardcoded" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Good Afternoon"
+                        android:textColor="#EFE8E8"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/are_you_feeling_sick"
+                    android:textColor="#EFE8E8"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/if_you_feel_sick_with_any_of_covid_19_symptoms_please_call_or_mail_us_for_help"
+                    android:textColor="#DCECE9"
+                    android:textSize="12dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="bottom|center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonCall1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/greenround"
+                    android:text="Call"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/buttonMail1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redround"
+                    android:text="Mail"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8828381992173496/7103922916"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="Uselesdparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F5F8FF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/red">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="97dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center|left"
+                    android:text="COVID-19 Dashboard"
+                    android:textColor="#3C3939"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabHost
+                    android:id="@+id/tabhost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#F5F8FF"
+                        android:orientation="vertical">
+
+                        <TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/purple_500"
+                            app:tabIndicatorColor="@color/teal_200"
+                            app:tabSelectedTextColor="@color/purple_200"
+                            app:tabTextColor="@color/purple_200"
+                            tools:visibility="visible" />
+
+                        <FrameLayout
+                            android:id="@android:id/tabcontent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/tab1"
+                                android:layout_width="match_parent"
+                                android:layout_height="270dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="2"
+                                    android:gravity="center">
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/warn"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/View68t85"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginRight="5dp"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_warn"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+
+                                            <TextView
+                                                android:id="@+id/textView1717"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Case"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/Red1dt2"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcred"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageView74918"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/pip36"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TodayCase"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress1"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/red"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/imageView6err5705"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginRight="5dp"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_red"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <TextView
+                                                android:id="@+id/tod"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Death"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/RedW"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcred"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageView9138"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/textView1397"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TodayDied"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress12"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="2">
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/majenda"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/image1View651"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginRight="5dp"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_resource_new"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <TextView
+                                                android:id="@+id/textView17177"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Recover"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/g1reen111"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcgreen"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageView5578"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/pip26"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TodayRecover"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress123"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/blue"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/imageViewFR6505"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_blue"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <TextView
+                                                android:id="@+id/TodayTest1"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Test"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/green23"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcgreen"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageView99518"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/pip69"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TodayTest"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress1234"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/tab2"
+                                android:layout_width="match_parent"
+                                android:layout_height="270dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="2"
+                                    android:gravity="center">
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/warn"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/ViewG68t85"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginRight="5dp"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_warn"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+
+                                            <TextView
+                                                android:id="@+id/textViews1717"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Case"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/Red1Edt2"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcred"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageView74d918"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/pipo36"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TotalCase"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress9"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/red"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/imageView6err5TT705"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginRight="5dp"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_red"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <TextView
+                                                android:id="@+id/todf"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Death"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/Red"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcred"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imqageView9138"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/textVieqw1397"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TotalDied"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress98"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="2">
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/majenda"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/imageView651"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginRight="5dp"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_resource_new"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <TextView
+                                                android:id="@+id/textView1t7177"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Recover"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/green1"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcgreen"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageViqew5578"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/pip216"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TotalRecover"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress987"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                    <TableLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="2"
+                                        android:background="@drawable/blue"
+                                        android:gravity="center">
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/imageView6505"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo5"
+                                                app:srcCompat="@drawable/ic_blue"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <TextView
+                                                android:id="@+id/TotalTests"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:text="Today Test"
+                                                android:textColor="#1E2432"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/green"
+                                                android:layout_width="20dp"
+                                                android:layout_height="19dp"
+                                                android:layout_margin="10dp"
+                                                android:gravity="center"
+                                                app:srcCompat="@drawable/indcgreen"
+                                                tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                                            <ImageView
+                                                android:id="@+id/imageView199518"
+                                                android:layout_width="110dp"
+                                                android:layout_height="match_parent"
+                                                android:contentDescription="@string/todo1"
+                                                app:srcCompat="@drawable/ic_main_line"
+                                                tools:ignore="VectorDrawableCompat" />
+                                        </TableRow>
+
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="5dp"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:id="@+id/pip1269"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/people"
+                                                android:textColor="#1E2432"
+                                                android:textSize="14dp" />
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="25dp">
+
+                                                <TextView
+                                                    android:id="@+id/TotalTest"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="25dp"
+                                                    android:layout_centerInParent="true"
+                                                    android:gravity="center"
+                                                    android:textColor="#1E2432"
+                                                    android:textSize="17dp"
+                                                    android:textStyle="bold"
+                                                    android:visibility="visible" />
+
+                                                <ProgressBar
+                                                    android:id="@+id/progress9876"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:indeterminateTint="#3D4A97"
+                                                    android:visibility="gone"
+                                                    tools:visibility="visible" />
+
+                                            </RelativeLayout>
+
+                                        </TableRow>
+
+                                    </TableLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+                </TabHost>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="Source: Department of Health"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/LastUpdated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="Last Updated:"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/label_TextView400005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/symptoms"
+                    android:textAllCaps="true"
+                    android:textColor="#3D4A97"
+                    android:textIsSelectable="true"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,NestedWeights,RtlHardcoded,Sudpicious0dp" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+
+                    <TableLayout
+                        android:id="@+id/mordana"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView99"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/fever_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow android:layout_height="36dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/high_fever"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/phzer"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView618867"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/dry_cough_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/dry_cough"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/astra"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="DuplicateIds,RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView62"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/fatigue_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/fatigue"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/sino"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView36"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/body_aches_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/body_ache"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/sinovac"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView47"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/headache_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/headache"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/dputnik"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView84"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/loss_of_taste_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/loss_of_tastes"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/jonson"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView525"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/loss_of_smell_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/loss_of_smell1"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout83"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:textSize="14dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView515"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/sore_throat_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/sore_throat"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout86"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView55"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/ic_runny_nose"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/runny_nose"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout8"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView505"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/vomiting_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/vomiting"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout82"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView5455"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/diarrhea_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/diarrhea"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/label_TextView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="2"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/requirements"
+                    android:textAllCaps="true"
+                    android:textColor="#3D4A97"
+                    android:textIsSelectable="true"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,NestedWeights,RtlHardcoded,Sudpicious0dp" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+
+                    <TableLayout
+                        android:id="@+id/tablelayout9"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView114"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/waer_mask_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/wear_mask"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout12"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView664"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/hand_sanitizer_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Hand Sanitizer"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout13"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView884"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/social_distancing_s"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/social_distance"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout14"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView224"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/avoid_contact_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Avoid Contact"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout7"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry,TooManyViews">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView422"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/cover_face_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Cover Face"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout16"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView54"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/don_t_touch_face_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/don_t_touch_face"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView424"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/wash_hands_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Wash Hands"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tablelayout3162"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView24"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/cook_well_r"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="@string/cook_well"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/brac"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/surokkha"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/todo69"
+                        app:srcCompat="@drawable/testing" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="147dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Any Symptoms?\nDo your Own Test !!"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/tst"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/round"
+                    android:text="Click Here for the Covid Test"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

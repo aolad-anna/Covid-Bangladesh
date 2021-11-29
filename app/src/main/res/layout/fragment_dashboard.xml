@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sft"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/round2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="6dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    app:srcCompat="@drawable/ic_stay_home__1_" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="213dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center|left"
+                    android:text="STAY AT HOME"
+                    android:textColor="#EAE1E1"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/notify1"
+                    android:layout_width="6dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/notification" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_p"
+                android:clickable="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView5535jtyj"
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:gravity="center|right"
+                    app:srcCompat="@drawable/ic_user" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/Profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Hello, Anna"
+                            android:textColor="#ECCFCF"
+                            android:textSize="16dp"
+                            android:textStyle="normal"
+                            android:visibility="gone"
+                            tools:ignore="RtlHardcoded"/>
+
+                        <TextView
+                            android:id="@+id/profile_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Tap here for 'Sign in' or 'Sign Up'"
+                            android:textColor="#ECCFCF"
+                            android:textSize="16dp"
+                            android:textStyle="normal|bold"
+                            android:visibility="visible"
+                            tools:ignore="RtlHardcoded" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Good Afternoon"
+                        android:textColor="#EFE8E8"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/are_you_feeling_sick"
+                    android:textColor="#EFE8E8"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/if_you_feel_sick_with_any_of_covid_19_symptoms_please_call_or_mail_us_for_help"
+                    android:textColor="#DCECE9"
+                    android:textSize="12dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="bottom|center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonCall1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/greenround"
+                    android:text="Call"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/buttonMail1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redround"
+                    android:text="Mail"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:text="@string/live_data_need_internet_connection1"
+            android:textSize="12dp" />
+
+        <WebView
+            android:id="@+id/anna"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+    </LinearLayout>
+
+</LinearLayout>

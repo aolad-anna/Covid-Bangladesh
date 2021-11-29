@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Home_Screen">
+
+    <fragment
+        android:id="@+id/Home_Screen"
+        android:name="com.example.covidbangladesh.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/Map"
+        android:name="com.example.covidbangladesh.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard"/>
+
+    <fragment
+        android:id="@+id/About"
+        android:name="com.example.covidbangladesh.ui.map2.map2"
+        android:label="@string/title_notifications" />
+    <fragment
+        android:id="@+id/Map2"
+        android:name="com.example.covidbangladesh.ui.notifications.NotificationsFragment"
+        android:label="Map2" />
+</navigation>

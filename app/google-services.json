@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6103133619",
+    "project_id": "covid-bangladesh-6d810",
+    "storage_bucket": "covid-bangladesh-6d810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6103133619:android:04d283a23ffac58af4afc6",
+        "android_client_info": {
+          "package_name": "com.example.covidbangladesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6103133619-seolnhva3qj99u468mvu8vr1sgiikaiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQPT6VguoyDUaSQQfWAtjqMdWcE34jUf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6103133619-seolnhva3qj99u468mvu8vr1sgiikaiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

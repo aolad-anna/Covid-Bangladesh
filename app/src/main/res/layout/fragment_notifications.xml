@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sft"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/round2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="6dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    app:srcCompat="@drawable/ic_stay_home__1_" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="213dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center|left"
+                    android:text="STAY AT HOME"
+                    android:textColor="#EAE1E1"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/notify4"
+                    android:layout_width="6dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/logo_rip"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/notification" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_p"
+                android:clickable="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView5535jtyj"
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:gravity="center|right"
+                    app:srcCompat="@drawable/ic_user" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/Profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Hello, Anna"
+                            android:textColor="#ECCFCF"
+                            android:textSize="16dp"
+                            android:textStyle="normal"
+                            android:visibility="gone"
+                            tools:ignore="RtlHardcoded"/>
+
+                        <TextView
+                            android:id="@+id/profile_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Tap here for 'Sign in' or 'Sign Up'"
+                            android:textColor="#ECCFCF"
+                            android:textSize="16dp"
+                            android:textStyle="normal|bold"
+                            android:visibility="visible"
+                            tools:ignore="RtlHardcoded" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Good Afternoon"
+                        android:textColor="#EFE8E8"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/are_you_feeling_sick"
+                    android:textColor="#EFE8E8"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/if_you_feel_sick_with_any_of_covid_19_symptoms_please_call_or_mail_us_for_help"
+                    android:textColor="#DCECE9"
+                    android:textSize="12dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="bottom|center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonCall1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/greenround"
+                    android:text="Call"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/buttonMail1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redround"
+                    android:text="Mail"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="Uselesdparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5F8FF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/blue">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="97dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center|left"
+                    android:text="@string/vaccine_dashboard"
+                    android:textColor="#3C3939"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/warn">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView6r5"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/people"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <RelativeLayout
+                            android:layout_width="115dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/Vaccine_data"
+                                android:layout_width="115dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:textColor="#1E2432"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <ProgressBar
+                                android:id="@+id/progress1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:indeterminateTint="#3D4A97"
+                                android:visibility="gone"
+                                tools:visibility="visible" />
+
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageeVirew5"
+                            android:layout_width="50dp"
+                            android:layout_height="39dp"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/ic_increase"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/textViewq177"
+                            android:layout_width="115dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="Vaccine target 80% population (18+)"
+                            android:textColor="#1E2432"
+                            android:textSize="12dp"
+                            tools:ignore="RtlHardcoded" />
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/blue">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imgeView6q5"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/surk"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <RelativeLayout
+                            android:layout_width="115dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/Reg_data"
+                                android:layout_width="115dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:textColor="#1E2432"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <ProgressBar
+                                android:id="@+id/progress12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:indeterminateTint="#3D4A97"
+                                android:visibility="gone"
+                                tools:visibility="visible" />
+
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageVirew6c5"
+                            android:layout_width="50dp"
+                            android:layout_height="39dp"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/ic_increase"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/texwtViw177"
+                            android:layout_width="115dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="Total Registration Surokkha App"
+                            android:textColor="#1E2432"
+                            android:textSize="12dp"
+                            tools:ignore="RtlHardcoded" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/grn">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView65"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/fstdos"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <RelativeLayout
+                            android:layout_width="115dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/First_doses_data"
+                                android:layout_width="115dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:textColor="#1E2432"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <ProgressBar
+                                android:id="@+id/progress123"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:indeterminateTint="#3D4A97"
+                                android:visibility="gone"
+                                tools:visibility="visible" />
+
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageVirew5"
+                            android:layout_width="50dp"
+                            android:layout_height="39dp"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/ic_increase"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/terxtwView177"
+                            android:layout_width="115dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="1st doses administered"
+                            android:textColor="#1E2432"
+                            android:textSize="14dp"
+                            tools:ignore="RtlHardcoded" />
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/red">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imgeView65"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/aganst"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <RelativeLayout
+                            android:layout_width="115dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/First_against_data"
+                                android:layout_width="115dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:textColor="#1E2432"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <ProgressBar
+                                android:id="@+id/progress1234"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:indeterminateTint="#3D4A97"
+                                android:visibility="gone"
+                                tools:visibility="visible" />
+
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageVirrew65"
+                            android:layout_width="33dp"
+                            android:layout_height="17dp"
+                            android:layout_marginTop="10dp"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/indcred"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/texteViw177"
+                            android:layout_width="115dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="   % 1st dose against target"
+                            android:textColor="#1E2432"
+                            android:textSize="14dp"
+                            tools:ignore="RtlHardcoded" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/grn">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView6t5"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/sndos"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <RelativeLayout
+                            android:layout_width="115dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/Secound_doses_data"
+                                android:layout_width="115dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:textColor="#1E2432"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <ProgressBar
+                                android:id="@+id/progress12345"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:indeterminateTint="#3D4A97"
+                                android:visibility="gone"
+                                tools:visibility="visible" />
+
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageVirrew5"
+                            android:layout_width="50dp"
+                            android:layout_height="39dp"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/ic_increase"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/textView177"
+                            android:layout_width="115dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="2nd doses administered"
+                            android:textColor="#1E2432"
+                            android:textSize="14dp"
+                            tools:ignore="RtlHardcoded" />
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/red">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imgerView65"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/aganst"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <RelativeLayout
+                            android:layout_width="115dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/Secound_against_data"
+                                android:layout_width="115dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:textColor="#1E2432"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <ProgressBar
+                                android:id="@+id/progress123456"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:indeterminateTint="#3D4A97"
+                                android:visibility="gone"
+                                tools:visibility="visible" />
+
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageVirew65"
+                            android:layout_width="33dp"
+                            android:layout_height="17dp"
+                            android:layout_marginTop="10dp"
+                            android:contentDescription="@string/todo5"
+                            app:srcCompat="@drawable/indcred"
+                            tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/textViw177"
+                            android:layout_width="115dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="% 2nd dose against target"
+                            android:textColor="#1E2432"
+                            android:textSize="14dp"
+                            tools:ignore="RtlHardcoded" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="Source: Department of Health"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/LastUpdated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="Last Updated:"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/label_TextView400005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Vaccines Approved for Use in Bangladesh"
+                    android:textAllCaps="true"
+                    android:textColor="#3D4A97"
+                    android:textIsSelectable="true"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,NestedWeights,RtlHardcoded,Sudpicious0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/ic_bar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="PHASE 1"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="PHASE 2"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="PHASE 3"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Approved"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+
+                    <TableLayout
+                        android:id="@+id/mordana"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView99"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/mordana"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow android:layout_height="36dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Moderna"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow android:layout_height="36dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="mRNA-1273"
+                                android:textColor="#3D4A97"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/phzer"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView618867"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/pfizer"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Pfizer"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="BNT162b2"
+                                android:textColor="#3D4A97"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/astra"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="DuplicateIds,RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView62"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/astrazeneca"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Astrazeneca"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Oxford formula"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/sino"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView36"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/sinopharm"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Sinopharm"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Vero Cells"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/sinovac"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView47"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/sinovac"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Sinovac"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="CoronaVac"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/sputnik"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView84"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/gamaleya"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Gamaleya"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="sputnik V"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/jonson"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:paddingEnd="2dip"
+                        android:background="@drawable/vaccine_rip"
+                        android:clickable="true"
+                        tools:ignore="RtlSymmetry">
+
+                        <TableRow>
+
+                            <ImageView
+                                android:id="@+id/imageView525"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:contentDescription="@string/todo8"
+                                app:srcCompat="@drawable/jonson"
+                                tools:ignore="DuplicateIds,NestedWeights,VectorDrawableCompat" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Janssen"
+                                android:textSize="14dp"
+                                android:textColor="#3D4A97" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Ad26.COV2.S"
+                                android:textColor="#3D4A97"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/surokkha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/round7"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/share_banner" />
+
+                <Button
+                    android:id="@+id/tst"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round"
+                    android:text="Click Here for the Vaccine Registration"
+                    android:textSize="14dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
