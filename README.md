@@ -1,2 +1,2 @@
 # Covid-Bangladesh
-COVID-19 apps are mobile software applications that use Digital contact tracing in response to the COVID-19 pandemic, i.e. the process of identifying persons ("contacts") who may have been in contact with an infected individual.
+Monitoring of symptoms and behavior may enable the prediction of emerging COVID-19 hotspots. The Covid-Bangladesh smartphone app, active in Bangladesh, allows users to self-report symptoms, social distancing behaviors, and COVID-19 status daily. The objective of this study is to describe the validation of the COVID.
