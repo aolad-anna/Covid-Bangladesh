@@ -5,7 +5,7 @@ import retrofit.Retrofit
 
 
 object ApiClient {
-    const val BASE_URL = "https://covid19.aoladanna.info/"
+    const val BASE_URL = "https://aoladanna.info/"
     private var retrofit: Retrofit? = null
     val client: Retrofit?
         get() {
